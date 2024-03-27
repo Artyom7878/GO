@@ -1,0 +1,39 @@
+  .halls {
+    margin: 0 0 100px;
+  }
+
+  .nav-halls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-halls__item {
+    display: inline-block;
+    background-image: url("../images/29.png");
+    text-transform: uppercase;
+    text-align: center;
+    padding: 275px 475px;
+    width: 1180px;
+    height: 710px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 60px;
+  }
+
+  .nav-halls__item:last-child {
+    margin-bottom: 0;
+    }
+
+  .nav-halls__link {
+    display: block;
+    width: 230px;
+    height: 160px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  .nav-halls__link:hover {
+    color: rgb(216, 94, 46);
+  }

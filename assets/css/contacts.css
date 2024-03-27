@@ -1,0 +1,94 @@
+  .contacts {
+    padding: 0 0 51px;
+  }
+
+  .social-network {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-network__item {
+    display: inline-block;
+    padding-right: 26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  .social-network__item:last-child {
+    padding-right: 0;
+  }
+
+  .container-contacts {
+    margin: 0 0 39px;
+  }
+
+  .town-street {
+    padding-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/location.svg");
+  }
+
+  .link__tel {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/phone_call.svg");
+  }
+
+  .link__email {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/email.svg");
+  }
+
+  .link__vk {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/social_vk.svg");
+  }
+
+  .link__telegram {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/telegram.svg");
+  }
+
+  .link__pinterest {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/social_pinterest.svg");
+  }
+
+  .link__stumbleupon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/social_stumbleupon.svg");
+  }

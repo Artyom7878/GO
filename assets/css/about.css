@@ -1,0 +1,68 @@
+  .about {
+    margin: 0 0 100px;
+  }
+
+  .about-paragraph {
+    margin: 0 0 70px;
+  }
+
+  .quotation-mark {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    
+  }
+
+  .quotation-mark:after {
+    content: "";
+    display: inline-block;
+    padding-right: 10px;
+    width: 38.98px;
+    height: 34.41px;
+    background-size: contain;
+    transform: rotate(180deg);
+    background-image: url("../icons/quotation_mark.svg");
+    background-repeat: no-repeat;
+  }
+
+  .quotation-mark:before {
+    content: "";
+    display: inline;
+    padding-right: 30px;
+    width: 38.98px;
+    height: 34.41px;
+    background-size: contain;
+    float: left;
+    background-image: url("../icons/quotation_mark.svg");
+    background-repeat: no-repeat;
+  }
+
+  .paragraph-left {
+    display: inline-block;
+    padding-left: 791px;
+    margin: 0;
+  }
+
+  .signature {
+    display: inline-block;
+    width: 389px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .signature:before {
+    content: "";
+    border-radius: 50%;
+    margin-right: 9.72px;
+    background-position-y: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/project-creator.png");
+  }
