@@ -63,6 +63,10 @@
     background-image: url("../icons/social_vk.svg");
   }
 
+  .link__vk:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+  }
+
   .link__telegram {
     display: block;
     width: 50px;
@@ -71,6 +75,10 @@
     background-repeat: no-repeat;
     background-position: left;
     background-image: url("../icons/telegram.svg");
+  }
+
+  .link__telegram:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(500deg);
   }
 
   .link__pinterest {
@@ -83,6 +91,10 @@
     background-image: url("../icons/social_pinterest.svg");
   }
 
+  .link__pinterest:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+  }
+
   .link__stumbleupon {
     display: block;
     width: 50px;
@@ -92,3 +104,11 @@
     background-position: left;
     background-image: url("../icons/social_stumbleupon.svg");
   }
+
+  .link__stumbleupon:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+  }
+
+
+
+
