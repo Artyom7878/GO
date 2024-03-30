@@ -30,7 +30,10 @@
     margin-bottom: 0;
   }
 
-  .quotation-mark {
+  .quote {
+    display: inline-block;
+    position: relative;
+    padding-left: 60px;
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 400;
@@ -38,7 +41,7 @@
     
   }
 
-  .quotation-mark:after {
+  .quote:after {
     content: "";
     display: inline-block;
     padding-right: 10px;
@@ -50,10 +53,12 @@
     background-repeat: no-repeat;
   }
 
-  .quotation-mark:before {
+  .quote:before {
     content: "";
     display: inline-block;
-    padding-right: 30px;
+    position: absolute;
+    top: -5px;
+    left: 0;
     width: 38.98px;
     height: 34.41px;
     background-size: contain;
@@ -61,25 +66,40 @@
     background-repeat: no-repeat;
   }
 
-  .signature {
+  .creator {
     display: inline-block;
-    width: 389px;
+    max-width: 389px;
+    position: relative;
+    padding-left: 100px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
   }
 
-  .signature:before {
+  .creator:before {
     content: "";
+    position: absolute;
+    left: 0;
     border-radius: 50%;
-    margin-right: 9.72px;
+    margin-right: 0;
     background-position-y: -10px;
     background-size: cover;
     background-repeat: no-repeat;
-    display: inline;
     float: left;
     width: 80px;
     height: 80px;
     background-image: url("../images/project-creator.png");
+  }
+
+  .end-line {
+    display: inline-block;
+  }
+
+  .creator-end-line {
+    display: inline-block;
+  }
+
+  .div {
+    text-align: right;
   }
