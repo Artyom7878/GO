@@ -70,6 +70,14 @@
     background-repeat: no-repeat;
   }
 
+  .quote-end-line {
+    display: inline-block;
+  }
+
+  .creator-container {
+    text-align: right;
+  }
+
   .creator {
     display: inline-block;
     max-width: 389px;
@@ -96,14 +104,6 @@
     background-image: url("../images/project-creator.png");
   }
 
-  .end-line {
+  .creator-breakdown {
     display: inline-block;
-  }
-
-  .creator-end-line {
-    display: inline-block;
-  }
-
-  .creator-container {
-    text-align: right;
   }

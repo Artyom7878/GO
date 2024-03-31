@@ -18,16 +18,12 @@
   }
   
   .faq__item {
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
+    line-height: 46px;
     padding: 20px 70px;
     margin-bottom: 20px;
-    line-height: 50px;
-  }
-
-  .faq__item:nth-child(even) {
-    background-color: #440F51;
-    color: #fff;
+    
   }
 
   .faq__item:nth-child(odd) {
@@ -35,11 +31,16 @@
     color: #1C1A1A;
   }
 
+  .faq__item:nth-child(even) {
+    background-color: #440F51;
+    color: #fff;
+  }
+
   .faq__item:after {
     content: "";
     display: inline;
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 46px;
     background-size: contain;
     float: right;
   }

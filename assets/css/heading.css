@@ -3,7 +3,7 @@
     margin: 0 0 100px;
   }
 
-  .head__container {
+  .heading__container {
     background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -23,7 +23,7 @@
     text-transform: uppercase;
   }
 
-  .main-title__paragraph {
+  .heading__paragraph {
     margin: 0;
     font-size: 28px;
     font-weight: 400;
