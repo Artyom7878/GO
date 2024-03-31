@@ -16,12 +16,12 @@
     background-position: center;
     text-transform: uppercase;
     text-align: center;
-    padding: 275px 475px;
-    width: 1180px;
-    height: 710px;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    padding: 275px 475px;
+    width: 1180px;
+    height: 710px;
     margin-bottom: 60px;
   }
 
@@ -33,12 +33,12 @@
     background-position: center;
     text-transform: uppercase;
     text-align: center;
-    padding: 275px 475px;
-    width: 1180px;
-    height: 710px;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    padding: 275px 475px;
+    width: 1180px;
+    height: 710px;
     margin-bottom: 60px;
   }
 
@@ -50,12 +50,12 @@
     background-position: center;
     text-transform: uppercase;
     text-align: center;
-    padding: 275px 475px;
-    width: 1180px;
-    height: 710px;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    padding: 275px 475px;
+    width: 1180px;
+    height: 710px;
     margin-bottom: 60px;
   }
 
@@ -67,15 +67,16 @@
     background-position: center;
     text-transform: uppercase;
     text-align: center;
-    padding: 275px 475px;
-    width: 1180px;
-    height: 710px;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    padding: 275px 475px;
+    width: 1180px;
+    height: 710px;
   }
 
   .nav-halls__link {
+    display: block;
     color: aliceblue;
     text-decoration: none;
   }
