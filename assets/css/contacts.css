@@ -25,9 +25,26 @@
     margin: 0 0 39px;
   }
 
-  .town-street {
-    padding-left: 30px;
-    background-size: contain;
+  .paragraph__adress {
+    margin: 0 0 11px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .paragraph__adress:last-child {
+    margin-bottom: 0;
+  }
+
+  .adress__location {
+    margin-bottom: 38px;
+  }
+
+  .location {
+    display: inline-block;
+    max-width: 290px;
+    padding-left: 60px;
     background-repeat: no-repeat;
     background-position: left;
     background-image: url("../icons/location.svg");
@@ -36,7 +53,7 @@
   .link__tel {
     text-decoration: none;
     color: aliceblue;
-    padding-left: 30px;
+    padding-left: 60px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -46,7 +63,7 @@
   .link__email {
     text-decoration: none;
     color: aliceblue;
-    padding-left: 30px;
+    padding-left: 60px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -64,7 +81,7 @@
   }
 
   .link__vk:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+    filter: invert(0.5) sepia(1) hue-rotate(800deg);
   }
 
   .link__telegram {
@@ -78,7 +95,7 @@
   }
 
   .link__telegram:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+    filter: invert(0.5) sepia(1) hue-rotate(800deg);
   }
 
   .link__pinterest {
@@ -92,7 +109,7 @@
   }
 
   .link__pinterest:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+    filter: invert(0.5) sepia(1) hue-rotate(800deg);
   }
 
   .link__stumbleupon {
@@ -106,7 +123,7 @@
   }
 
   .link__stumbleupon:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(500deg);
+    filter: invert(0.5) sepia(1) hue-rotate(800deg);
   }
 
 

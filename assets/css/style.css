@@ -34,14 +34,6 @@
     text-transform: uppercase;
   }
 
-  .paragraph {
-    margin: 0 0 10px;
-  }
-
-  .paragraph:last-child {
-    margin-bottom: 0;
-  }
-
   .blockquote {
     margin: 0;
   }
