@@ -2,6 +2,15 @@
     padding: 0 0 51px;
   }
 
+  .contacts__title {
+    margin: 0 0 54px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   .social-network {
     list-style: none;
     text-decoration: none;
@@ -81,7 +90,7 @@
   }
 
   .link__vk:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(800deg);
+    filter: sepia(1) hue-rotate(800deg) saturate(5);
   }
 
   .link__telegram {
@@ -95,7 +104,7 @@
   }
 
   .link__telegram:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(800deg);
+    filter: sepia(1) hue-rotate(800deg) saturate(5);
   }
 
   .link__pinterest {
@@ -109,7 +118,7 @@
   }
 
   .link__pinterest:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(800deg);
+    filter: sepia(1) hue-rotate(800deg) saturate(5);
   }
 
   .link__stumbleupon {
@@ -123,7 +132,7 @@
   }
 
   .link__stumbleupon:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(800deg);
+    filter: sepia(1) hue-rotate(800deg) saturate(5);
   }
 
 

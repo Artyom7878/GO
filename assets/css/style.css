@@ -15,16 +15,6 @@
     margin: 0 auto ;
   }
 
-  .main-title {
-    margin: 0;
-    font-size: 150px;
-    font-weight: 900;
-    line-height: 150px;
-    letter-spacing: -0.1em;
-    text-align: left;
-    text-transform: uppercase;
-  }
-
   .title {
     margin: 0 0 50px;
     font-size: 40px;
@@ -34,6 +24,3 @@
     text-transform: uppercase;
   }
 
-  .blockquote {
-    margin: 0;
-  }
