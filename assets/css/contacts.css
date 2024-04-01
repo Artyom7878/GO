@@ -23,6 +23,10 @@
     text-align: left;
   }
 
+  .address__paragraph:first-child {
+    margin-bottom: 38px;
+  }
+
   .address__paragraph:last-child {
     margin-bottom: 0;
   }
@@ -131,7 +135,6 @@
   .link__stumbleupon:hover {
     filter: sepia(1) hue-rotate(800deg) saturate(5);
   }
-
 
 
 
