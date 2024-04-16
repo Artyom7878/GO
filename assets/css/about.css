@@ -3,7 +3,7 @@
   }
 
   .about-container {
-    margin: 0 0 70px;
+    margin: 0 0 78px;
   }
 
   .about-paragraph {
@@ -37,41 +37,28 @@
   .quote {
     display: inline-block;
     position: relative;
-    padding: 6px 0 0 60px;
+    padding: 8px 20px 0 26px;
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 400;
     line-height: 50px;
-    
-  }
-
-  .quote:after {
-    content: "";
-    display: inline-block;
-    padding-right: 10px;
-    width: 38.98px;
-    height: 34.41px;
-    background-size: contain;
-    transform: rotate(180deg);
-    background-image: url("../icons/quotation_mark.svg");
-    background-repeat: no-repeat;
+    white-space: pre-line;
   }
 
   .quote:before {
-    content: "";
-    display: inline-block;
+    content: "“";
     position: absolute;
-    top: -2px;
+    color: #6C0287;
+    top: 2px;
     left: 0;
-    width: 38.98px;
-    height: 34.41px;
-    background-size: contain;
-    background-image: url("../icons/quotation_mark.svg");
-    background-repeat: no-repeat;
   }
 
-  .quote-end-line {
-    display: inline-block;
+  .quote:after {
+    content: "”";
+    color: #6C0287;
+    position: absolute;
+    top: 50px;
+    right: 2px;
   }
 
   .creator-container {
@@ -81,6 +68,7 @@
   .creator {
     display: inline-block;
     max-width: 389px;
+    white-space: pre-line;
     position: relative;
     padding-left: 100px;
     font-size: 20px;

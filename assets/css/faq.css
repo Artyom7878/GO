@@ -20,8 +20,8 @@
   .faq__item {
     font-size: 24px;
     font-weight: 700;
-    line-height: 28px;
-    padding: 29.5px 70px;
+    line-height: 46px;
+    padding: 20.5px 70px;
     margin-bottom: 20px;
     
   }
@@ -38,9 +38,6 @@
 
   .faq__item:after {
     content: "";
-    display: inline;
-    position: relative;
-    top: -9px;
     width: 46px;
     height: 46px;
     background-size: contain;

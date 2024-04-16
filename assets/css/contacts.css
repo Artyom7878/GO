@@ -22,8 +22,19 @@
     line-height: 28px;
     text-align: left;
   }
+  
+  .address-svg {
+    vertical-align: middle;
+    margin-right: 30px;
+  }
 
   .address__paragraph:first-child {
+    display: inline-block;
+    max-width: 300px;
+    padding-left: 72px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/location.svg");
     margin-bottom: 38px;
   }
 
@@ -35,36 +46,18 @@
     margin-bottom: 38px;
   }
 
-  .location {
-    display: inline-block;
-    max-width: 290px;
-    padding-left: 60px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-image: url("../icons/location.svg");
-  }
-
   .address-link__telephone {
     text-decoration: none;
     color: aliceblue;
-    padding-left: 60px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-image: url("../icons/phone_call.svg");
   }
 
   .address-link__email {
     text-decoration: none;
     color: aliceblue;
-    padding-left: 60px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-image: url("../icons/email.svg");
   }
 
   .social-network {
+    line-height: 0;
     list-style: none;
     text-decoration: none;
     padding: 0;
@@ -73,7 +66,7 @@
 
   .social-network__item {
     display: inline-block;
-    padding-right: 26px;
+    margin-right: 26px;
   }
 
   .social-network__item:last-child {
