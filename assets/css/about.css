@@ -22,74 +22,58 @@
     margin: 0;
   }
 
-  .blockquote-paragraph {
-    margin: 0 0 40px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-  }
-
-  .blockquote-paragraph:last-child {
-    margin-bottom: 0;
-  }
-
-  .quote {
+  .blockquote-paragraph:first-child {
     display: inline-block;
     position: relative;
-    padding: 8px 20px 0 26px;
+    padding-left: 40px;
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 400;
     line-height: 50px;
+    margin: 0 0 40px;
     white-space: pre-line;
   }
 
-  .quote:before {
-    content: "“";
-    position: absolute;
-    color: #6C0287;
-    top: 2px;
-    left: 0;
-  }
-
-  .quote:after {
-    content: "”";
-    color: #6C0287;
-    position: absolute;
-    top: 50px;
-    right: 2px;
-  }
-
-  .creator-container {
-    text-align: right;
-  }
-
-  .creator {
+  .blockquote-paragraph:last-child {
     display: inline-block;
-    max-width: 389px;
-    white-space: pre-line;
     position: relative;
-    padding-left: 100px;
+    left: 780px;
+    max-width: 370px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
+    margin: 0;
+  }
+
+  .blockquote-paragraph:first-child:before {
+    content: "“";
+    position: absolute;
+    color: #6C0287;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: left;
+    left: 0;
+    top: -2px;
+  }
+
+  .quote {
+    color: #6C0287;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
     text-align: left;
   }
 
-  .creator:before {
-    content: "";
-    position: absolute;
-    left: 0;
+  .project-creator__img {
     border-radius: 50%;
-    margin-right: 0;
-    background-position-y: -10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    float: left;
+    margin-right: 20px;
+    object-fit: contain;
     width: 80px;
     height: 80px;
-    background-image: url("../images/project-creator.png");
+    float: left;
   }
 
   .creator-breakdown {

@@ -1,16 +1,15 @@
-  .heading {
+  .banner {
     padding: 146px 0 0;
     margin: 0 0 100px;
   }
 
-  .heading__container {
+  .banner__container {
     background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right 61px;
     display: block;
-    width: 1180px;
-    height: 823px;
+    min-height: 823px;
   }
 
   .main-title {
@@ -23,7 +22,7 @@
     text-transform: uppercase;
   }
 
-  .heading__paragraph {
+  .banner__paragraph {
     margin: 0;
     font-size: 28px;
     font-weight: 400;
