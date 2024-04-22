@@ -22,7 +22,12 @@
     margin: 0;
   }
 
-  .blockquote-paragraph:first-child {
+  .blockquote-list {
+    list-style: none;
+    margin: 0;
+  }
+
+  .blockquote-item:first-child {
     display: inline-block;
     position: relative;
     padding-left: 40px;
@@ -34,8 +39,7 @@
     white-space: pre-line;
   }
 
-  .blockquote-paragraph:last-child {
-    display: inline-block;
+  .blockquote-item:last-child {
     position: relative;
     left: 780px;
     max-width: 370px;
@@ -45,7 +49,7 @@
     margin: 0;
   }
 
-  .blockquote-paragraph:first-child:before {
+  .blockquote-item:first-child:before {
     content: "“";
     position: absolute;
     color: #6C0287;
@@ -56,6 +60,18 @@
     text-align: left;
     left: 0;
     top: -2px;
+  }
+
+  .creator {
+    margin: 0;
+  }
+
+  .quote {
+    color: #6C0287;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
   }
 
   .project-creator__img {
