@@ -58,15 +58,6 @@
     top: -2px;
   }
 
-  .quote {
-    color: #6C0287;
-    font-family: Arial;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 50px;
-    text-align: left;
-  }
-
   .project-creator__img {
     border-radius: 50%;
     margin-right: 20px;
