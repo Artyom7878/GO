@@ -4,11 +4,11 @@
   }
 
   .banner__container {
-    background-image: url("../images/banner.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right 61px;
     display: block;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
     min-height: 823px;
   }
 

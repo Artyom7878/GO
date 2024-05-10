@@ -32,6 +32,7 @@
     display: inline-block;
     position: relative;
     padding-left: 40px;
+    padding-right: 30px;
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 400;
@@ -41,13 +42,13 @@
   }
 
   .blockquote-item:last-child {
-    position: relative;
-    left: 780px;
+    display: block;
     max-width: 370px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     margin: 0;
+    margin-left: auto;
   }
 
   .blockquote-item:first-child:before {
@@ -67,12 +68,16 @@
     margin: 0;
   }
 
-  .quote {
+  .blockquote-item:first-child:after {
+    content: "”";
+    position: absolute;
     color: #6C0287;
     font-family: Arial;
     font-size: 44px;
     font-weight: 900;
     line-height: 50px;
+    right: 0;
+    bottom: 2px;
   }
 
   .project-creator__img {
