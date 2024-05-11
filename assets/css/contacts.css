@@ -18,11 +18,6 @@
     line-height: 28px;
     text-align: left;
   }
-  
-  .address-svg {
-    vertical-align: middle;
-    margin-right: 30px;
-  }
 
   .address__paragraph:first-child {
     display: inline-block;
@@ -43,11 +38,23 @@
   }
 
   .address-link__telephone {
+    display: inline-block;
+    max-width: 300px;
+    padding-left: 72px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/phone_call.svg");
     text-decoration: none;
     color: aliceblue;
   }
 
   .address-link__email {
+    display: inline-block;
+    max-width: 350px;
+    padding-left: 72px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../icons/email.svg");
     text-decoration: none;
     color: aliceblue;
   }
@@ -66,7 +73,7 @@
   }
 
   .social-network__item:last-child {
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .link__vk {
