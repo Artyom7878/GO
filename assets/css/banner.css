@@ -1,5 +1,12 @@
   .banner {
     padding: 146px 0 100px;
+    background: rgb(62, 163, 160);
+    }
+
+  .container {
+    max-width: 1240px;
+    padding: 0 30px;
+    margin: 0 auto;
   }
 
   .banner__container {

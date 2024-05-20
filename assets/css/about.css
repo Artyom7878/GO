@@ -1,8 +1,9 @@
   .about {
-    padding: 0 0 100px;
+    padding: 100px 0;
+    background: rgb(133, 37, 104);
   }
 
-  .about-container {
+  .about-container__paragraphs {
     margin: 0 0 78px;
   }
 

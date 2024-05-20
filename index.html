@@ -17,16 +17,16 @@
 </head>
 
 <body>
-  <div class="container">
     <main>
     <section class="banner">
-      <div class="banner__container">
+      <div class="banner__container container">
         <h1 class="main-title">Game Over</h1>
         <p class="banner__paragraph">Новый формат игр и отдыха</p>
       </div>
     </section>
 
     <section class="halls" id="halls">
+      <div class="container">
       <h2 class="title">Наши залы</h2>
         <ol class="nav-halls">
           <li class="nav-halls__80-vibes"><a class="nav-halls__link" href="vibes.html">80` vibes</a></li>
@@ -34,9 +34,11 @@
           <li class="nav-halls__wild-west"><a class="nav-halls__link" href="wildwest.html">Wild west</a></li>
           <li class="nav-halls__neon-style"><a class="nav-halls__link" href="neonstyle.html">Neon style</a></li>
         </ol>
+      </div>
     </section>
     
     <section class="booking" id="booking">
+      <div class="container">
       <h2 class="title">Забронировать</h2>
       <form name="booking" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
         <fieldset>
@@ -131,11 +133,13 @@
         </fieldset>
         <button type="submit">Забронировать</button>
       </form>
+    </div>
     </section>
 
     <section class="about" id="about">
+      <div class="container">
       <h2 class="title">О нас</h2>
-      <div class="about-container">
+      <div class="about-container__paragraphs">
         <p class="about-paragraph">Для наших гостей мы создали
         концептуально новое игровое пространство виртуальной реальности
         в центральной части города.
@@ -154,9 +158,11 @@
                 территории GAME OVER
         </p>
       </blockquote>
+    </div>
     </section>
 
     <section class="faq" id="faq">
+      <div class="container">
       <h2 class="faq__title">Частые вопросы</h2>
       <ul class="faq__list">
         <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
@@ -165,10 +171,12 @@
         <li class="faq__item">Как получить VIP-карту?</li>
         <li class="faq__item">Какая комната самая популярная?</li>
       </ul>
+    </div>
     </section>
   </main>
 
   <footer class="contacts" id="contacts">
+    <div class="container">
     <h2 class="contacts__title">Контакты</h2>
     <address class="address__normal">
         <p class="address__paragraph first-address__paragraph"> г.Москва 
@@ -187,7 +195,7 @@
         <li class="social-network__item"><a class="link__stumbleupon" href="https://www.stumbleupon.com/" target="_blank"></a></li>
       </ul>
     </nav>
+  </div>
   </footer>
-</div>
 </body>
 </html>
