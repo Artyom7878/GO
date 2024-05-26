@@ -1,0 +1,68 @@
+.social__list {
+  font-size: 0;
+}
+
+.social__item {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link-vk {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../social/icons-social/social_vk.svg");
+}
+
+.social__link-vk:hover {
+  filter: sepia(1) hue-rotate(800deg) saturate(5);
+}
+
+.social__link-telegram {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../social/icons-social/telegram.svg");
+}
+
+.social__link-telegram:hover {
+  filter: sepia(1) hue-rotate(800deg) saturate(5);
+}
+
+.social__link-pinterest {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../social/icons-social/social_pinterest.svg");
+}
+
+.social__link-pinterest:hover {
+  filter: sepia(1) hue-rotate(800deg) saturate(5);
+}
+
+.social__link-stumbleupon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../social/icons-social/social_stumbleupon.svg");/
+}
+
+.social__link-stumbleupon:hover {
+  filter: sepia(1) hue-rotate(800deg) saturate(5);
+}
