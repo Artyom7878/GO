@@ -2,6 +2,12 @@
   padding: 50px 0;
 }
 
+.halls__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .halls__item-80-vibes {
   background-image: url("../halls/img-halls/80`-vibes.jpg");
   background-size: cover;
@@ -12,6 +18,7 @@
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
+  padding: 275px 30px;
   margin-bottom: 60px;
 }
 
@@ -24,6 +31,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 70px;
+  padding: 275px 30px;
   margin-bottom: 60px;
 }
 
@@ -36,6 +44,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 70px;
+  padding: 275px 30px;
   margin-bottom: 60px;
 }
 
@@ -48,29 +57,17 @@
   text-align: center;
   font-weight: 700;
   font-size: 70px;
+  padding: 275px 30px;
 }
 
 .halls__link {
   display: inline-block;
-}
-
-.halls__link--80-vibes {
-  padding: 275px 475px;
-}
-
-.halls__link--star-wars {
-  padding: 274.5px 475px;
-}
-
-.halls__link--wild-west {
-  padding: 274.5px 475px;
-}
-
-.halls__link--neon-style {
-  padding: 274.5px 475px;
+  max-width: 240px;
+  padding: 0;
+  color: aliceblue;
+  text-decoration: none;
 }
 
 .halls__link:hover {
   color: rgb(191, 255, 245);
 }
-
