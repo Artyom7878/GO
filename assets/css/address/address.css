@@ -28,24 +28,21 @@
   margin-bottom: 38px;
 }
 
-.address__link-telephone {
+.address__link {
   display: inline-block;
-  max-width: 300px;
   padding-left: 72px;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../address/icons-address/phone_call.svg");
   text-decoration: none;
   color: aliceblue;
 }
 
-.address__link-email {
-  display: inline-block;
-  max-width: 350px;
-  padding-left: 72px;
-  background-repeat: no-repeat;
-  background-position: left;
+.address__link-icon--telephone {
+  min-width: 260px;
+  background-image: url("../address/icons-address/phone_call.svg");
+}
+
+.address__link-icon--email {
+  min-width: 340px;
   background-image: url("../address/icons-address/email.svg");
-  text-decoration: none;
-  color: aliceblue;
 }
